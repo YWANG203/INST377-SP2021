@@ -1,5 +1,11 @@
-async function windowActions() {
-    console.log('window loaded');
+function mapInit() {
+  // follow the Leaflet Getting Started tutorial here
+  return map;
+}
+
+async function dataHandler(mapObjectFromFunction) {
+  // use your assignment 1 data handling code here
+  console.log('window loaded');
     const form = document.querySelector('.userform');
     const search = document.querySelector('#city');
     const suggestions = document.querySelector('.suggestions');  
@@ -61,7 +67,12 @@ async function windowActions() {
     search.addEventListener('keyup', (event) => { 
         displayMatches(event)
     });
+  // and target mapObjectFromFunction to attach markers
+}
 
+async function windowActions() {
+  const map = mapInit();
+  await dataHandler(map);
 }
 
 window.onload = windowActions;

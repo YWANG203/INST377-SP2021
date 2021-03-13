@@ -1,0 +1,31 @@
+body{
+    /* bulma override */
+    /*margin: 40px auto;
+    max-width: 650px; */
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    padding: 0 10px;
+}
+.container{
+    width: 960px;
+    height: 960px;
+    background: linear-gradient(#80d2f8,#daacf8);
+}
+#mapid { height: 480px; }
+
+/*.box {
+    font-weight: 60;
+    font-size: 1.25rem;
+}*/
+
+.suggestions {
+    border-radius: 4px;
+    color: rgba(25, 25, 25, 137);
+    background: rgb(180, 114, 180);
+    padding: 5px;
+}
+
+* {
+    font-family: "Audiowide", sans-serif;
+}
