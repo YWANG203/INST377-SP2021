@@ -35,15 +35,7 @@ h1 {
     flex: 1 0 220px;
 }
 
-.flex-outer li button {
-    padding: 8px 16px;
-    border: none;
-    background: smoke;
-    color: black;
-    text-transform: uppercase;
-    letter-spacing: .09em;
-    border-radius: 2px;
-}
+
 
 .flex-inner li {
     width: 100px;

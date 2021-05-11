@@ -38,7 +38,7 @@ h1 {
 .flex-outer li button {
     padding: 8px 16px;
     border: none;
-    background: smoke;
+    background: #333;
     color: black;
     text-transform: uppercase;
     letter-spacing: .09em;

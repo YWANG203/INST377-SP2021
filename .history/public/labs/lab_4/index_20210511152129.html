@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Yiyang Wang's Lab 4</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>Yiyang Wang's Lab 4</h1>
+    <form action="/api" method="POST">
+        <ul class="flex-outer">
+          <li>
+            <label for="first-name">First Name</label>
+            <input type="text" id="fname" placeholder="Enter your first name here">
+          </li>
+          <li>
+            <label for="last-name">Last Name</label>
+            <input type="text" id="lname" placeholder="Enter your last name here">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email here">
+          </li>
+          <li>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="Enter your phone here">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea rows="5" colums="33" id="message" placeholder="Enter your message here"></textarea>
+          </li>
+          <li>
+            <p>Age</p>
+            <ul class="flex-inner">
+                <li>
+                    <input type="checkbox" id="twenty-to-twentynine">
+                    <label for="eighteen-to-thirtyfive">18-35</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="thirty-to-thirtynine">
+                    <label for="thirtyfive-to-fifty">35-50</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="fourty-to-fourtynine">
+                    <label for="fifty-to-sixtyfive">50-65</label>
+                </li>
+            </ul>
+          </li>
+          <li>
+            <button type="submit">Submit Form</button>
+          </li>
+        </ul>
+    
+      </form>    
+  </body>
+  
+</html>
